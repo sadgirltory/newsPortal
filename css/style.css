@@ -292,11 +292,87 @@ footer p {
     padding: 1rem 0;
     text-align: center
 }
+/*----------------------youtubeVideo-------------------*/
+.youtubevideo{
+ max-width: 114rem;
+     background: #cccccc;
+    margin: 0 auto;
+}
 
+.youtubevideo iframe{
+   
+  margin: 0 auto;
+  width: 50%;
+  height: 345px;
+   display: block;
+   padding:4rem;
+    border-style:none;
+}
+.advertisement{
+    max-width: 114rem;
+   
+    margin: 0 auto;
+    width: 100%;
+    background: #ff6633;
+}
 
+.advertisement p{
+     background: #ff6633;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem
+}
 
- /*---------- marquee effect---------------- */
+.videoText{
+  max-width: 114rem;
+   padding: 4rem;
+    margin: 0 auto;
+    background: #fff;
+    
+}
+.videoText img{
+    float: left;
+   
+}
 
+.videoText div{
+
+     vertical-align: middle;
+}
+.videoText div p{
+    padding: 1rem 3rem;
+}
+/*---------- old news effect---------------- */
+.oldNews{
+    max-width: 114rem;
+    padding: 9rem;
+    margin: 0 auto;
+    background: #cccccc;
+    text-align: center;
+    align-content: center;
+}
+ .oldNews h2{
+    font-size: 2rem;
+        color: red;
+         text-align: center;
+ 
+ }
+
+ .oldNews .newsButtons{
+     text-align: center;
+    align-content: center;
+    padding: 1rem;
+    width: 50%;
+    margin-left: auto;
+  margin-right: auto;
+ }
+.newsButtons a p{
+    background: #666666;
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+/*---------- marquee effect---------------- */
 .marquee-outer {
 height: 29px;
  overflow: hidden;
